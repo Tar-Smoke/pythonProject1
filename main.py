@@ -8,4 +8,6 @@ def test_first(x):
     print(pt(x))
 if __name__ == '__main__':
     test_first(a)
+    test_first(b)
+    test_first(c)
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/

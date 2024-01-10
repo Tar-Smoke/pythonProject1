@@ -4,7 +4,7 @@ def pt(any_array):
     x = False
     if len(any_array) == 3:
         any_array.sort()
-        if (any_array[1] + any_array[0]) > any_array[2]:
+        if (any_array[1]**2 + any_array[0]**2) == any_array[2]**2:
             x = True
         else:
             x = False
